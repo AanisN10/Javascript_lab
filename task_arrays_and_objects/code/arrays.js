@@ -105,10 +105,8 @@ console.log(stoppingAtDurham);
  * If we are stopping at Durham, print "Yay Durham!" to the terminal. If not print "Aww...".
  */
 
-// if(stoppingAtDurham === "Durham"){
+// if(stoppingAtDurham){
 //     console.log("Yay Durham");
-// }else{
-//     console.log("Awww....");
 // }
 
 for (i=0; i<stations.length; i++){

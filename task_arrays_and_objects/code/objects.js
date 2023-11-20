@@ -42,11 +42,11 @@ catBreed = cat.breed;
 /**
  * Q3. It's the tortoise's birthday! Add one to her current age.
  */
-tortoise["age"] = 8;
-or 
+// tortoise["age"] = 8;
+// or 
 
-tortoise = (tortoise.age) + 1; 
-console.log(tortoise)
+tortoise.age = (tortoise.age) + 1; 
+// console.log(tortoise)
 
 // doing this method gave me NaN
 
@@ -76,7 +76,7 @@ parrot = {
  */
 tortoise.food = "dandelion";
 
-console.log(tortoise);
+// console.log(tortoise);
 
 /**
  * Q7. What's the combined age of all the pets?
